@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>What's The Weather Like</title>
+    <header class="nav">
+        <h2>Weather Dashboard</h2>
+    </header>
+</head>
+
+<body>
+
+
+    <div class="side-bar">
+        <section id="search">
+            <h2>Search City Forecast:</h2>
+            <input id="city-name" placeholder="Enter City Name">
+            <button id="search-button">Search</button>
+        </section>
+
+        <section id="search-history hidden">
+            <button id="previous-search"></button>
+        </section>
+    </div>
+
+    <div class="current-weather">
+        <section id="current-city">
+            <h2 id="city"></h2>
+            <img id="weather-icon">
+            <p id="temp"></p>
+            <p id="wind"></p>
+            <p id="humidity"></p>
+        </section>
+
+        <section id="forecast">
+            <ul id="forecast-list">
+
+            </ul>
+        </section>
+    </div>
+
+
+
+</body>
+<script src="/assets/js/script.js"></script>
+
+</html>
