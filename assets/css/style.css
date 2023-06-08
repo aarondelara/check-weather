@@ -4,7 +4,7 @@
 
 body {
     flex-direction: row;
-    background-image:url('/assets/images/water.jpg'); background-repeat:repeat;
+    background-image: url("../images/water.jpg");
     background-size: 100%;
 }
 

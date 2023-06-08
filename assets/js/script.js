@@ -66,6 +66,6 @@ inputCity.addEventListener('keypress', function (event) {
     }
 });
 
-var currentDate = newDate();
-var formattedDate = `${currentDate.getFullYear()}-${currentDate.getMonth() + 1}-${currentDate.getDate()}`;
-console.log(formattedDate);
+//var currentDate = newDate();
+//var formattedDate = `${currentDate.getFullYear()}-${currentDate.getMonth() + 1}-${currentDate.getDate()}`;
+//console.log(formattedDate);
