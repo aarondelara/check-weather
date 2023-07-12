@@ -55,7 +55,7 @@ input {
     transition: ease-in-out .3s;
 }
 
-#current-city {
+.city {
     background-color: lightblue;
     border-style: solid;
     border-radius: 6px;
