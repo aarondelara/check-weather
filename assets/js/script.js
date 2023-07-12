@@ -5,7 +5,7 @@ var cityContainer = document.querySelector('#current-city');
 var forecastContainer = document.querySelector('#forecast');
 
 function getLocation(city) {
-    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=a8469e3590068e1ffd438d0a50ae7be8`)
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=a8469e3590068e1ffd438d0a50ae7be8`)
         .then(function (response) {
             return response.json();
         })
